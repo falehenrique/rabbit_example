@@ -1,0 +1,10 @@
+{application,rabbit_example,
+             [{applications,[kernel,stdlib,elixir,logger,conduit,
+                             conduit_amqp]},
+              {description,"rabbit_example"},
+              {modules,['Elixir.Example.Broker',
+                        'Elixir.Example.Broker.Publisher',
+                        'Elixir.Example.Broker.RabbitMQ',
+                        'Elixir.RabbitExample']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
