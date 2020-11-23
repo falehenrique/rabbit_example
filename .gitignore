@@ -5,4 +5,4 @@
 /*.ez
 /log
 .DS_*
-deps
+deps/
