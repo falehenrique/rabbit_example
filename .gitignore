@@ -5,6 +5,6 @@
 /*.ez
 /log
 .DS_*
-
+deps/
 _build/
 rm
